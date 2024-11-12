@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>Palindrome Checker</h1>
+        </header>
+
+        <!-- Sidebar Section -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </aside>
+
+        <!-- Main Content Section -->
+        <main>
+            <h2>Check if a Word is a Palindrome</h2>
+            <label for="wordInput">Enter a word:</label>
+            <input type="text" id="wordInput" placeholder="Type a word" />
+            <button id="checkButton">Check Palindrome</button>
+            <p id="result"></p>
+        </main>
+
+        <!-- Advertisement Section -->
+        <aside class="advertisement">
+            <a href="https://www.amazon.com/Princess-Rapunzel-Sparkling-Clothing-Accessories/dp/B0B29N9D96/?_encoding=UTF8&pd_rd_w=GuGFA&content-id=amzn1.sym.aeef70de-9e3e-4007-ae27-5dbb7b4a72f6&pf_rd_p=aeef70de-9e3e-4007-ae27-5dbb7b4a72f6&pf_rd_r=HXBHFPD2TQP56PEK10CK&pd_rd_wg=J65TI&pd_rd_r=ff361933-0b41-4d90-b98e-47c8448abe7c&ref_=pd_hp_d_btf_crs_zg_bs_165793011" target="_blank">
+                <img src="https://m.media-amazon.com/images/I/91UPZJCGdrL._AC_SX679_.jpg" alt="Advertisement">
+            </a>
+        </aside>
+
+        <!-- Footer Section -->
+        <footer>
+            <p>Last updated: <span id="lastModified"></span></p>
+            <p>In this exercise, I created a simple palindrome checker in JavaScript. The program takes a word from the user, checks if it reads the same forwards and backwards, and displays whether it is a palindrome.</p>
+        </footer>
+    </div>
+
+    <script src="scripts.js"></script>  <!-- Link to external JS file -->
+    <script type="text/javascript">
+         var x = document.lastModified;
+         document.getElementById('lastModified').textContent = x;
+    </script>
+</body>
+</html>
